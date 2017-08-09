@@ -1,0 +1,70 @@
+/* Website template by freewebsitetemplates.com */
+body {
+	
+	
+	color: #ab967f;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	min-width: 1050px;
+	padding: 0;
+}
+
+
+#header div.section {
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+	background: none;
+	margin: 10px auto;
+	overflow: hidden;
+	width: 1300px;
+}
+#header div.section a {
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+	float: center;
+	margin: 10px 0 0;
+}
+
+#header div.section ul {
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+	float: right;
+	list-style: none;
+	margin: 24px;
+	padding: 0;
+}
+#header div.section ul li {
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+	float: left;
+}
+
+#header div.section ul li a {
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+	display: block;
+	color: #839a00;
+	float: center;
+	font-size: 16px;
+	height: 49px;
+	line-height: 49px;
+	margin: 10px 40px 0px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+	width: 70px;
+}
+#myDIV {
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 10px 20px 30px blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px blue;}
+}
